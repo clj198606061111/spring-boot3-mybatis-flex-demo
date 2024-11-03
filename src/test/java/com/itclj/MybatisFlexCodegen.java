@@ -76,6 +76,9 @@ public class MybatisFlexCodegen {
         //设置生成 mapper
         globalConfig.enableMapper();
 
+        //设置表定义辅助类 TableDef
+        globalConfig.enableTableDef();
+
         //设置生成 service
         globalConfig.enableService();
 
